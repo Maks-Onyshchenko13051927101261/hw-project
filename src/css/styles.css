@@ -1,0 +1,54 @@
+@import url("desktop.css");
+/* --------- common styles --------- */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Plus Jakarta Sans, sans-serif;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    display:  block;
+    width: 100%;
+}
+ol, ul{
+    list-style-type: none;
+}
+button{
+    cursor:  pointer;
+    font-family: inherit;
+}
+input {
+    font-family: inherit;
+}
+/* ============ title-category ============ */
+.category-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.category-title h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.link-category{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.vector-right{
+    width: 6px;
+    height: 14px;
+}
+
