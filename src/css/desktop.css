@@ -49,7 +49,7 @@
     height: 17px;
     color: inherit;
 }
-.btn-buymeacoffee{
+.btn-coffee{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +62,7 @@
     background-color: #6246EA;
     border: none;
 }
-.btn-buymeacoffee>img{
+.btn-coffee>img{
     width: 24px;
     height: 24px;
 }
@@ -103,13 +103,15 @@
     gap: 20px;
 }
 input[type="email"]{
-    color:#C0C0C0;
     font-size: 20px;
     font-weight: 400;
     padding: 21px 200px 21px 25px;
     border-radius: 8px;
     background-color: #FFFFFE;
-    border:  none;
+    border: none;
+}
+input[type="email"]::placeholder{
+    color: #C0C0C0;
 }
 .banner img{
     width: 470px;
@@ -142,6 +144,7 @@ input[type="email"]{
     background-color: #FFFFFE;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     transition: background-color 1s, color 2s;
+    cursor: pointer;
 }
 .category-item:hover,
 .category-item:focus{
@@ -203,6 +206,7 @@ input[type="email"]{
     align-items: flex-start;
     justify-content: space-between;
     padding: 20px;
+    cursor: pointer;
 }
 .about-item:hover,
 .about-item:focus{
@@ -277,6 +281,7 @@ input[type="email"]{
     font-size: 20px;
     font-weight: 400;
     margin-top: 10px;
+    text-transform: none;
 }
 /* --------- footer section --------- */
 .footer{
