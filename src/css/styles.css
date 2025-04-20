@@ -6,6 +6,7 @@
     padding: 0;
 }
 body{
+    width: 1440px;
     font-family: Plus Jakarta Sans, sans-serif;
     text-transform: capitalize;
     color: #2B2C34;
@@ -52,4 +53,16 @@ input {
     width: 6px;
     height: 14px;
 }
-
+/* ============ button ============ */
+.btn-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 23px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+}

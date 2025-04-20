@@ -1,9 +1,6 @@
 /* --------- header --------- */
-.body {
-    width: 1440px;
-}
 .header{
-    width: 100%;
+    width: 1440px;
     display: flex;
     padding: 22px 95px 15px 95px;
     justify-content: space-between;
@@ -114,19 +111,6 @@ input[type="email"]{
     background-color: #FFFFFE;
     border:  none;
 }
-.btm-subscribe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 23px;
-    border: none;
-    border-radius: 8px;
-    background-color: #6246EA;
-    color: #FFFFFE;
-    font-size: 20px;
-    font-weight: 700;
-}
-
 .banner img{
     width: 470px;
     height: 387px;
@@ -156,7 +140,7 @@ input[type="email"]{
     padding: 65px 0 95px 30px;
     border-radius: 8px;
     background-color: #FFFFFE;
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     transition: background-color 1s, color 2s;
 }
 .category-item:hover,
@@ -223,7 +207,7 @@ input[type="email"]{
 .about-item:hover,
 .about-item:focus{
     transition: box-shadow 1s;
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 .top-about h5{
     margin-top: 25px;
@@ -253,18 +237,6 @@ input[type="email"]{
     font-weight: 400;
     display: flex;
     justify-content: space-between;
-}
-.about-button{
-    display: flex;
-    padding: 20px 23px;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 8px;
-    background-color: #6246EA;
-    color: #FFFFFE;
-    font-size: 20px;
-    font-weight: 700;
 }
 /* --------- subscribe section --------- */
 .subscribe-section{
