@@ -289,6 +289,7 @@ input[type="email"]::placeholder{
     display: flex;
     flex-direction: column;
     padding: 70px 95px 0 95px;
+    background-color: #E4E5E9;
 }
 .footer-container{
     display: flex;
