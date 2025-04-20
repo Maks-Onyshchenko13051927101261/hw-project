@@ -143,14 +143,14 @@ input[type="email"]::placeholder{
     border-radius: 8px;
     background-color: #FFFFFE;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
-    transition: background-color 1s, color 2s;
+    transition: background-color 1s, color 1s;
     cursor: pointer;
 }
 .category-item:hover,
 .category-item:focus{
    background-color: #6246EA;
    color: #FFFFFE;
-   transition: background-color 2s, color 2s;
+   transition: background-color 1s, color 1s;
 }
 .category-item h4{
     width: 100%;
@@ -229,18 +229,19 @@ input[type="email"]::placeholder{
     height: 57px;
     border-radius: 57px;
 }
-.bottom-about h6{
+.bottom-about-title h6{
     font-size: 16px;
     font-weight: 600;
     text-transform: none;
 }
-.bottom-about p{
+.bottom-about-title p{
     width: 184px;
     margin-top: 4px;
     font-size: 14px;
     font-weight: 400;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 /* --------- subscribe section --------- */
 .subscribe-section{
