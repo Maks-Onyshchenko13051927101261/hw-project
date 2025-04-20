@@ -156,16 +156,44 @@ input[type="email"]{
     padding: 65px 0 95px 30px;
     border-radius: 8px;
     background-color: #FFFFFE;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    transition: background-color 1s, color 2s;
+}
+.category-item:hover,
+.category-item:focus{
+   background-color: #6246EA;
+   color: #FFFFFE;
+   transition: background-color 2s, color 2s;
 }
 .category-item h4{
     width: 100%;
     font-size: 24px;
     font-weight: 700;
 }
-.category-item div{
+.category-item-img{
     width: 60px;
     height: 60px;
     border-radius: 8px;
+    background-color: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-img{
+    width: 33px;
+    height: 37px;
+}
+.tailwind-img{
+    width: 40px;
+    height: 24px;
+}
+.vue-img{
+    width: 36px;
+    height: 31px;
+}
+.react-img{
+    width: 40px;
+    height: 36px;
 }
 /* --------- about section --------- */
 .about{
@@ -191,6 +219,11 @@ input[type="email"]{
     align-items: flex-start;
     justify-content: space-between;
     padding: 20px;
+}
+.about-item:hover,
+.about-item:focus{
+    transition: box-shadow 1s;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
 }
 .top-about h5{
     margin-top: 25px;
